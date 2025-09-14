@@ -19,7 +19,7 @@ from cinema.serializers import (
     OrderSerializer,
     OrderListSerializer,
 )
-from cinema.permisions import IsAdminOrIfAuthenticatedReadOnly, \
+from cinema.permissions import IsAdminOrIfAuthenticatedReadOnly, \
     IsAdminOrIfAuthenticatedCreateOnly
 
 
